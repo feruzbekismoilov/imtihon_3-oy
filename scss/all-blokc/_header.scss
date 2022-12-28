@@ -1,0 +1,39 @@
+.header{
+    padding: 10px 0 37px 0;
+    
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+.header__wrapper__link__logo{
+    display: block;
+}
+.header__wrapper{
+    &__buy-now{
+        display: inline;
+        padding: 15px 50px; 
+        font-weight: 700;
+        line-height: 22px;
+        background-color: var(--buynow-bg-color);  
+        color:var(--main-bg-color);
+        border-radius: 5px;
+    }
+}
+.header__wrapper__buy-now:hover{
+    opacity: 0.9;
+}
+
+@media screen and (max-width:800px) {
+    .header__wrapper{
+        flex-direction: column ;
+        gap: 20px;
+    }
+}
+@media screen and (max-width:480px) {
+    .header__wrapper__buy-now{
+        padding: 10px 35px;
+    }
+}
