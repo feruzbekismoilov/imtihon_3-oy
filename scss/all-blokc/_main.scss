@@ -48,3 +48,55 @@
         margin: 0 auto;
     }
 }
+// SERVICES SECTION END
+
+// BROWN SUGAR SECTION START
+.brown-sugar{
+    background-color: var(--brown-sugar-bg-color);
+}
+.brown-sugar__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brown-sugar__wrapper__start-title{
+    margin: 0;
+    margin-bottom: 16px;
+    width: 349px;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+    color: #150101;
+}
+.brown-sugar__wrapper__start-desc{
+    margin: 0;
+    margin-bottom: 35px;
+    width: 445px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150101;
+    opacity: 0.6;
+}
+@media screen and (max-width:1120px) {
+    .brown-sugar{
+        padding-top: 100px;
+    }
+    .brown-sugar__wrapper{
+        flex-direction: column;
+        text-align: center;
+    }
+    .brown-sugar__wrapper__start-title{
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width:486px) {
+    .brown-sugar__wrapper__start-title{
+        width: 100%;
+        font-size: 35px;
+    }
+    .brown-sugar__wrapper__start-desc{
+        width: 100%;
+    }
+}
+// BROWN SUGAR SECTION END
