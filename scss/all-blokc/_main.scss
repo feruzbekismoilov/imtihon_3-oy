@@ -142,7 +142,7 @@
 .our-product__wrapper{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 121px ;
+    margin-top: 50px ;
 }
 .our-product__wrapper__inner{
     width: 454px;
@@ -293,3 +293,93 @@
     }
 }
 // OUR PRODUCT SECTION END
+
+// SIMPLE WAY SECTION START
+.simple-way{
+    padding: 90px 0 144px 0;
+    background-color: var(--simple-way-bg-color);
+}
+.simple-way__wrapper{
+    position: relative;
+    width: 680px;
+    margin-left: auto;
+}
+.simple-way__wrapper-title{
+    margin: 0;
+    margin-bottom:20px ;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 52px;
+}
+.simple-way__wrapper-desc{
+    width: 607px;
+    margin: 0;
+    margin-bottom: 29px;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: #0F0101;
+    opacity: 0.7;
+}
+.simple-way__wrapper-list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+.simple-way__wrapper__item{
+    display: flex;
+    align-items: center;
+}
+.simple-way__wrapper-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 3px;
+    background-color: var(--main-bg-color);
+}
+.simple-way__wrapper__item-desc{
+    margin: 0;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+}
+.simple-way__wrapper__bottom{
+    display: flex;
+}
+.simple-way__wrapper-img{
+    position: absolute;
+    top: -40px;
+    left: -443px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+@media screen and (max-width:1130px) {
+    .simple-way__wrapper-img{
+        display: none;
+    } 
+    .simple-way__wrapper{
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:700px){
+    .simple-way__wrapper{
+        width: 100%;
+        text-align: center;
+    }
+    .simple-way__wrapper-desc{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .simple-way__wrapper-list{
+        text-align: center;
+    }
+    .simple-way__wrapper__bottom{
+        text-align: center  ;
+    }
+}
+// SIMPLE WAY SECTION END
