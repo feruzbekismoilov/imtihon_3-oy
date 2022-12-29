@@ -383,3 +383,102 @@
     }
 }
 // SIMPLE WAY SECTION END
+
+// QUESTION SECTION START
+.question{
+    padding: 150px 0 71px 0;
+}
+.question__wrapper{
+    width: 637px;
+    margin: 0 auto;
+}
+.question__wrapper-title{
+    width: 522px;
+    margin: 0 auto;
+    margin-bottom: 36px;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 52px;
+    text-align: center;
+}
+.question__wrapper__form-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 37px;
+}
+.question__wrapper__form-input{
+    width: 303px;
+    height: 74px;
+    padding-left: 25px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F0000;
+    opacity: 0.6;
+    border: 1px solid rgb(247, 102, 102);
+    border-radius: 5px;
+}
+.question__wrapper__btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 303px;
+    height: 74px;
+    padding-left: 25px;
+    padding-right: 33px;
+    background-color: #fff;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F0000;
+    opacity: 0.6;
+    border: 1px solid rgb(247, 102, 102);
+    border-radius: 5px;
+}
+.question__wrapper__form-questions{
+    position: relative;
+}
+.question__wrapper__form-question{
+    width: 100%;
+    height: 74px;
+    padding-left: 25px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F0000;
+    opacity: 0.6;
+    border: 1px solid rgb(247, 102, 102);
+    border-radius: 5px;
+}
+.question__wrapper__form-submit{
+    position: absolute;
+    right: 0;
+    width: 134px;
+    height: 74px;
+    background: #D64374;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+@media screen and (max-width:667px) {
+    .question__wrapper{
+        width: 100%;
+    }
+    .question__wrapper-title{
+        width: 100%;
+        font-size: 35px;
+    }
+    .question__wrapper__form-top{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .question__wrapper__form-question{
+        width: 90%;
+    }
+    .question__wrapper__form{
+        text-align: center;
+    }
+
+}
+// QUESTION SECTION END
