@@ -19,8 +19,13 @@
     width: 250px;
     background-color: #fff;
     text-align: center;
-    box-shadow: 20px 20px 50px #00000008;
     border-radius: 7px;
+}
+.services__wrapper__item:hover{
+    box-shadow: 20px 20px 50px #00000008;
+}
+.services__wrapper__item:active{
+    box-shadow: 20px 20px 50px #00000008;
 }
 .services__wrapper__img{
     display: block;
@@ -100,3 +105,191 @@
     }
 }
 // BROWN SUGAR SECTION END
+
+// OUR PRODUCT SECTION START
+.our-product{
+    padding: 137px 0 0 0;
+    background-color: var(--services-bg-color);
+}
+.our-product__title{
+    margin: 0;
+    margin-bottom: 64px;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 61px;
+    color: #150101;
+    text-align: center;
+}
+.our-product__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.our-product__link{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    opacity: 0.6;
+}
+.our-product__link:hover{
+    opacity: 1;
+    border-bottom: 3px solid #D64374;
+}
+.our-product__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 121px ;
+}
+.our-product__wrapper__inner{
+    width: 454px;
+    padding-top: 60px;  
+}
+.our-product__wrapper__inner-title{
+    margin: 0;
+    margin-bottom: 11px;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 36px;
+}
+.our-product__wrapper__inner-desc{
+    margin: 0;
+    margin-bottom: 28px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+}
+.our-product__wrapper__inner-numbers{
+    display: flex;
+    align-items: flex-end;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.our-product__wrapper__inner-number{
+    margin: 0;
+    margin-right:5px ;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+}
+.our-product__wrapper__inner__del-number{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    opacity: 0.7;
+}
+.for-cayenne__inner{
+    text-align: end;
+}
+.for-cayenne__inner-number{
+  margin-left: auto;
+}
+.our-product__wrapper__inner__people{
+    display: flex;
+    align-items: center;
+    margin-bottom: 46px;
+}
+.our-product__wrapper__inner__people-img{
+    display: block;
+    margin-right: 21px;
+}
+.our-product__wrapper__inner__people-name{
+    margin: 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+}
+.our-product__wrapper__inner__people-millati{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    opacity: 0.7;
+}
+.our-product__wrapper__inner__text{
+    position: relative;
+    margin-bottom: 39px;
+}
+.our-product__wrapper__inner__text::after{
+    content:url(./../../images/icons/right-q.svg); 
+    position: absolute;
+    bottom: -2px;
+    left: 224px;
+}
+.our-product__wrapper__inner__text::before{
+    content:url(./../../images/icons/left-q.svg); 
+    position: absolute;
+    left: -20px;
+}
+.our-product__wrapper__inner__imgs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+}
+.start{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+@media screen and (max-width:1080px) {
+    .our-product__wrapper{
+        flex-direction: column;
+        text-align: center;
+    }
+    .our-product__wrapper__inner{
+        order:1;
+        margin: 0 auto;
+    }
+    .our-product__wrapper-img{
+        display: block;
+        margin: 0 auto;
+    }
+    .for-cayenne__inner{
+        text-align: center;
+    }
+    .our-product__wrapper__inner-numbers{
+        justify-content: center;
+    }
+    .our-product__wrapper__inner-number{
+        margin: 0 auto;
+    }
+    .our-product__wrapper__inner__del-number{
+        margin: 0 auto;
+    }
+    .our-product__wrapper__inner__people{
+        justify-content: center;
+    }
+    .our-product__wrapper__inner__text::after{
+        left: 300px;
+    }
+    .our-product__wrapper__inner__text::before{
+        left: 20px;
+    }
+    .our-product__wrapper__inner__imgs{
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:1000px){
+    .our-product__list{
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+@media screen and (max-width:550px) {
+    .our-product__wrapper__inner{
+        width: 100%;
+    }
+    .our-product__wrapper__inner__text::after{
+        display: none;
+    }
+    .our-product__wrapper__inner__text::before{
+        display: none;
+    }
+}
+// OUR PRODUCT SECTION END
