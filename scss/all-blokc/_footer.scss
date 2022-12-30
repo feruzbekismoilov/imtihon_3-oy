@@ -2,10 +2,6 @@
     padding: 70px 0 104px 0;
     background-color: var(--footer-bg-color);
 }
-.site-footer__wrapper__link__logo{
-    display: block;
-    margin: 0 auto;
-}
 .site-footer__wrapper{
     display: flex;
     justify-content: space-between;
@@ -82,6 +78,10 @@
     color: #FFFFFF;
 }
 @media screen and (max-width:882px) {
+    .site-footer__wrapper__link__logo{
+        display: block;
+        margin: 0 auto;
+    }
     .site-footer__wrapper{
         flex-direction: column;
         gap: 50px;
