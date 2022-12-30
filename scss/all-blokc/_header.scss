@@ -26,6 +26,9 @@
 .header__wrapper__buy-now:hover{
     opacity: 0.9;
 }
+.header__wrapper__buy-now:active{
+    opacity: 0.9;
+}
 
 @media screen and (max-width:800px) {
     .header__wrapper{
