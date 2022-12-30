@@ -31,6 +31,9 @@
 .site-footer__wrapper__start-link:hover{
     opacity: 1;
 }
+.site-footer__wrapper__start-link:active{
+    opacity: 1;
+}
 .site-footer__wrapper__end-list{
     display: flex;
     flex-direction: column;
@@ -48,6 +51,9 @@
     gap: 16px;
 }
 .site-footer__wrapper__end-link:hover{
+    opacity: 1;
+}
+.site-footer__wrapper__end-link:active{
     opacity: 1;
 }
 .site-footer__wrapper__end-form{
